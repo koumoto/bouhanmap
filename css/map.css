@@ -21,34 +21,23 @@ input{
 #chikan:checked + .label {
   background-color: #f7f771;
 }
+
 #tsukimatoi:checked + .label {
   background-color: #f47b5d;
 }
+
 #rosyustu:checked + .label {
   background-color: #79f779;
 }
+
 #fusinsha:checked + .label {
   background-color: #b45bef;
 }
+
 #sonota:checked + .label {
   background-color: #f783c4;
 }
 
 label:hover {
  border: 2px solid #434343;
-}
-
-.square_btn{
-    display: inline-block;
-    text-decoration: none;
-    background: #668ad8;
-    border-bottom: solid 4px #627295;
-    border-radius: 3px;
-}
-.square_btn:active {/*ボタンを押したとき*/
-    -ms-transform: translateY(4px);
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);/*下に動く*/
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
-    border-bottom: none;
 }
