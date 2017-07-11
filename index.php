@@ -24,13 +24,13 @@ while(($line = fgets($fp)) != NULL){
     </script>
     <div id="map-canvas">ここに地図が表示されます。</div>
     <h1>兵庫県防犯マップ</h1>
-    <input type="checkbox" checked="checked" id="koekake"><label for="koekake">声かけ事案</label>
-    <input type="checkbox" checked="checked" id="chikan"><label for="chikan">チカン</label>
-    <input type="checkbox" checked="checked" id="tsukimatoi"><label for="tsukimatoi">つきまとい</label>
-    <input type="checkbox" checked="checked" id="rosyustu"><label for="rosyustu">露出</label>
-    <input type="checkbox" checked="checked" id="fusinsha"><label for="fusinsha">不審者</label>
-    <input type="checkbox" checked="checked" id="sonota"><label for="sonota">その他</label>
-    <button type="button" onClick="show(geodata)">選択</button>
+    <input class="check_box" type="checkbox" checked="checked" id="koekake"><label for="koekake" class="label">声かけ事案</label>
+    <input class="check_box" type="checkbox" checked="checked" id="chikan"><label for="chikan" class="label">チカン</label>
+    <input class="check_box" type="checkbox" checked="checked" id="tsukimatoi"><label for="tsukimatoi" class="label">つきまとい</label>
+    <input class="check_box" type="checkbox" checked="checked" id="rosyustu"><label for="rosyustu" class="label">露出</label>
+    <input class="check_box"type="checkbox" checked="checked" id="fusinsha"><label for="fusinsha" class="label">不審者</label>
+    <input class="check_box"type="checkbox" checked="checked" id="sonota"><label for="sonota" class="label">その他</label>
+    <button class="square_btn" type="button" onClick="show(geodata)">選択</button>
     <p>このマップはひょうご防犯ネットからメールで防犯情報を収集し、それを可視化したマップです。</p>
     <p>作成者:<a href="http://bensemi.com/myself">河本純一</a></p>
     <script src="./js/map.js"></script>
